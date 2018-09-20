@@ -1,6 +1,6 @@
 body{
     background-image: url('hexbackground.jpg');
-    color:silver;
+    color:black;
     margin-left: 15%;
     margin-right: 15%;
     line-height: 40px;
@@ -28,3 +28,9 @@ h1{
     text-align:left;
 }
 
+
+p{
+    background-color:silver;
+   margin: 0px;
+   padding: 0px 8px 0px 8px;
+}
