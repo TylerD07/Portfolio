@@ -12,6 +12,10 @@ header{
     font-family:'Galada', 'cursive';
 }
 
+.tabs{
+    float:right;
+}
+
 .aboutme {
     text-decoration: underline;
     color: black;
