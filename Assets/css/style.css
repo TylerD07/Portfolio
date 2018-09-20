@@ -12,9 +12,7 @@ header{
     font-family:'Galada', 'cursive';
 }
 
-#tabs{
-    float:right;
-}
+
 
 .aboutme {
     text-decoration: underline;
@@ -27,9 +25,9 @@ header{
 h1{
     text-decoration: underline;
     text-decoration-color: red;
-    background-color: darkgray;
     color:black;
     text-align:left;
+    
 }
 
 
@@ -44,3 +42,45 @@ background-color: silver;
 
 }
 
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    
+
+}
+
+li{
+    display: inline;
+    margin-top: 50px;
+    margin-right: 50px;
+
+}
+
+.bar{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: silver;
+}
+
+.contactform{
+    background-color: silver;
+
+}
+
+.row::after{
+    display: flex;
+content: "";
+clear: both;
+display: table;
+
+
+}
+
+.column{
+    float: left;
+    padding: 10px;
+
+}
