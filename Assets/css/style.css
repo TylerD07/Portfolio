@@ -27,6 +27,7 @@ h1{
     text-decoration-color: red;
     color:black;
     text-align:left;
+    margin-left: 15px;
     
 }
 
@@ -83,4 +84,9 @@ display: table;
     float: left;
     padding: 10px;
 
+}
+
+.portfolio{
+    background-color: silver;
+    
 }
