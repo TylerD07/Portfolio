@@ -5,6 +5,7 @@ body{
     margin-right: 15%;
     line-height: 40px;
     font-family: 'Bellefair', serif;
+    font-size: 24;
 
 }
 
@@ -18,7 +19,7 @@ header{
     text-decoration: underline;
     color: black;
     margin-right: 85%;
-    background-color: darkgrey;
+    background-color: silver;
     text-align: center;
 }
 
@@ -48,8 +49,6 @@ ul{
     margin: 0;
     padding: 0;
     float: right;
-    
-
 }
 
 li{
@@ -83,10 +82,31 @@ display: table;
 .column{
     float: left;
     padding: 10px;
+    background-color: silver;
+    margin: 15px 15px 15px 15px;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
 
 }
 
 .portfolio{
     background-color: silver;
-    
+
+}
+
+footer{
+        background-color:silver;
+        width: 95%;
+        padding: 25px;
+        margin-right: 20%;
+
+
+}
+
+.portrait{
+    display: flex;
+    float: left;
+    padding: 15px 20px 5px 15px;
 }
